@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D071463A2B5CDBB200589511 /* BluetoothMenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07146362B5CDBB200589511 /* BluetoothMenuBarView.swift */; };
+		D071463B2B5CDBB200589511 /* BluetoothMenuBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07146372B5CDBB200589511 /* BluetoothMenuBarCoordinator.swift */; };
+		D071463D2B5CDBB200589511 /* IOBluetoohDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07146392B5CDBB200589511 /* IOBluetoohDevice+.swift */; };
+		D09447662B5A3728000E9C45 /* BluetoothKillerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09447652B5A3728000E9C45 /* BluetoothKillerApp.swift */; };
+		D094476A2B5A3729000E9C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09447692B5A3729000E9C45 /* Assets.xcassets */; };
+		D094476D2B5A3729000E9C45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D094476C2B5A3729000E9C45 /* Preview Assets.xcassets */; };
+		D094477F2B5A384F000E9C45 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094477E2B5A384F000E9C45 /* Settings.swift */; };
+		D09447822B5A3D69000E9C45 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = D09447812B5A3D69000E9C45 /* LaunchAtLogin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D07146362B5CDBB200589511 /* BluetoothMenuBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothMenuBarView.swift; sourceTree = "<group>"; };
+		D07146372B5CDBB200589511 /* BluetoothMenuBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothMenuBarCoordinator.swift; sourceTree = "<group>"; };
+		D07146392B5CDBB200589511 /* IOBluetoohDevice+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IOBluetoohDevice+.swift"; sourceTree = "<group>"; };
+		D09447622B5A3728000E9C45 /* BluetoothKiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothKiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09447652B5A3728000E9C45 /* BluetoothKillerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothKillerApp.swift; sourceTree = "<group>"; };
+		D09447692B5A3729000E9C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D094476C2B5A3729000E9C45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D094476E2B5A3729000E9C45 /* BluetoothKiller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluetoothKiller.entitlements; sourceTree = "<group>"; };
+		D094477E2B5A384F000E9C45 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D094475F2B5A3728000E9C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09447822B5A3D69000E9C45 /* LaunchAtLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09447592B5A3728000E9C45 = {
+			isa = PBXGroup;
+			children = (
+				D09447642B5A3728000E9C45 /* BluetoothKiller */,
+				D09447632B5A3728000E9C45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09447632B5A3728000E9C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09447622B5A3728000E9C45 /* BluetoothKiller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09447642B5A3728000E9C45 /* BluetoothKiller */ = {
+			isa = PBXGroup;
+			children = (
+				D09447652B5A3728000E9C45 /* BluetoothKillerApp.swift */,
+				D09447692B5A3729000E9C45 /* Assets.xcassets */,
+				D07146372B5CDBB200589511 /* BluetoothMenuBarCoordinator.swift */,
+				D07146362B5CDBB200589511 /* BluetoothMenuBarView.swift */,
+				D07146392B5CDBB200589511 /* IOBluetoohDevice+.swift */,
+				D094476E2B5A3729000E9C45 /* BluetoothKiller.entitlements */,
+				D094476B2B5A3729000E9C45 /* Preview Content */,
+				D094477E2B5A384F000E9C45 /* Settings.swift */,
+			);
+			path = BluetoothKiller;
+			sourceTree = "<group>";
+		};
+		D094476B2B5A3729000E9C45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D094476C2B5A3729000E9C45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09447612B5A3728000E9C45 /* BluetoothKiller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09447712B5A3729000E9C45 /* Build configuration list for PBXNativeTarget "BluetoothKiller" */;
+			buildPhases = (
+				D094475E2B5A3728000E9C45 /* Sources */,
+				D094475F2B5A3728000E9C45 /* Frameworks */,
+				D09447602B5A3728000E9C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothKiller;
+			packageProductDependencies = (
+				D09447812B5A3D69000E9C45 /* LaunchAtLogin */,
+			);
+			productName = BluetoothKiller;
+			productReference = D09447622B5A3728000E9C45 /* BluetoothKiller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D094475A2B5A3728000E9C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D09447612B5A3728000E9C45 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = D094475D2B5A3728000E9C45 /* Build configuration list for PBXProject "BluetoothKiller" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09447592B5A3728000E9C45;
+			packageReferences = (
+				D09447802B5A3D69000E9C45 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
+			productRefGroup = D09447632B5A3728000E9C45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09447612B5A3728000E9C45 /* BluetoothKiller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09447602B5A3728000E9C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D094476D2B5A3729000E9C45 /* Preview Assets.xcassets in Resources */,
+				D094476A2B5A3729000E9C45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D094475E2B5A3728000E9C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D071463D2B5CDBB200589511 /* IOBluetoohDevice+.swift in Sources */,
+				D071463B2B5CDBB200589511 /* BluetoothMenuBarCoordinator.swift in Sources */,
+				D094477F2B5A384F000E9C45 /* Settings.swift in Sources */,
+				D071463A2B5CDBB200589511 /* BluetoothMenuBarView.swift in Sources */,
+				D09447662B5A3728000E9C45 /* BluetoothKillerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D094476F2B5A3729000E9C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D09447702B5A3729000E9C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D09447722B5A3729000E9C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BluetoothKiller/BluetoothKiller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BluetoothKiller/Preview Content\"";
+				DEVELOPMENT_TEAM = 89W3YYT523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For bluetooth device access";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wow.cool.BluetoothKiller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D09447732B5A3729000E9C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BluetoothKiller/BluetoothKiller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BluetoothKiller/Preview Content\"";
+				DEVELOPMENT_TEAM = 89W3YYT523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For bluetooth device access";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wow.cool.BluetoothKiller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D094475D2B5A3728000E9C45 /* Build configuration list for PBXProject "BluetoothKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D094476F2B5A3729000E9C45 /* Debug */,
+				D09447702B5A3729000E9C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09447712B5A3729000E9C45 /* Build configuration list for PBXNativeTarget "BluetoothKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09447722B5A3729000E9C45 /* Debug */,
+				D09447732B5A3729000E9C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D09447802B5A3D69000E9C45 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D09447812B5A3D69000E9C45 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D09447802B5A3D69000E9C45 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D094475A2B5A3728000E9C45 /* Project object */;
+}

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3B7566E4-4A9F-4CB5-8EB7-B0FECEC271BF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30F27F04-00EF-4AC0-BD0A-A319885532FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "startPairing()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55728001-2FDA-494C-B089-5D4CD5B604D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "stopPairing()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46C05B2D-F70D-4913-99DC-E8C76238F9A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "addDevices()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46C05B2D-F70D-4913-99DC-E8C76238F9A4 - 1df9a9df1cb1d04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.BtInterface.addDevices() -&gt; ()"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "46C05B2D-F70D-4913-99DC-E8C76238F9A4 - 1df9a9df1cb1d04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.BtInterface.addDevices() -&gt; ()"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "46C05B2D-F70D-4913-99DC-E8C76238F9A4 - 1df9a9df1cb1d04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.BtInterface.addDevices() -&gt; ()"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "520">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC3B89CD-71F7-43BE-831B-9B7D4D2A45BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "addDevices()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC3B89CD-71F7-43BE-831B-9B7D4D2A45BB - 1df9a9df1cb1223"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.BtInterface.addDevices() -&gt; ()"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "BC3B89CD-71F7-43BE-831B-9B7D4D2A45BB - 1df9a9df1cb1223"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.BtInterface.addDevices() -&gt; ()"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C8DE5CE-7371-4685-BD40-572D54331DFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "BluetoothDeviceObserver"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5C8DE5CE-7371-4685-BD40-572D54331DFE - e047848d2412f14f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.BluetoothDeviceObserver.deinit"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "5C8DE5CE-7371-4685-BD40-572D54331DFE - c6cd5371c6770eff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.BluetoothDeviceObserver.__deallocating_deinit"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "5C8DE5CE-7371-4685-BD40-572D54331DFE - e047848d2412f0ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.BluetoothDeviceObserver.deinit"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76AB1833-6BF9-49EA-97EE-BE923D932CD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "Notification.Name"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B1D2BD7-E15B-4BAD-A05D-D43886357A91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "addDevices()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0B1D2BD7-E15B-4BAD-A05D-D43886357A91 - 6245a6db64e16724"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.IOBluetoothDevice) -&gt; Swift.Bool in BluetoothKiller.BtInterface.addDevices() -&gt; ()"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "0B1D2BD7-E15B-4BAD-A05D-D43886357A91 - 6245a6db64e166e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.IOBluetoothDevice) -&gt; Swift.Bool in BluetoothKiller.BtInterface.addDevices() -&gt; ()"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/BTManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90F79D66-9921-4179-9D15-BB6118E8569C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFAA95D5-303B-4B6A-AA1C-8821BABAD5B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A692A8D-AD45-4EB2-B988-77E3A8025823"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/SessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9A692A8D-AD45-4EB2-B988-77E3A8025823 - 6e07c37b837dc388"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.SessionManager.init((Swift.Bool) -&gt; ()) -&gt; BluetoothKiller.SessionManager"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/SessionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "9A692A8D-AD45-4EB2-B988-77E3A8025823 - a4b271e8411e60ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.SessionManager.init() -&gt; BluetoothKiller.SessionManager"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/SessionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C57DB1F7-D000-462D-AC5A-66284727946F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/BTManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "addDevices()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A75B1FB9-1916-4401-9316-17CE3136D689"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothKiller/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A75B1FB9-1916-4401-9316-17CE3136D689 - 3f06d3d66b16b2e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BluetoothKiller.ViewModel.sessionActive.didset : Swift.Bool"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "A75B1FB9-1916-4401-9316-17CE3136D689 - cf52aade9543b8f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in BluetoothKiller.ViewModel.init() -&gt; BluetoothKiller.ViewModel"
+                  moduleName = "BluetoothKiller"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willcrane/XCodeProjects/BluetoothKiller/BluetoothKiller/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
