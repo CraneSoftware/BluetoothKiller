@@ -19,7 +19,7 @@ import NotificationCenter
 //    var launchConfig: LoginLaunchInterface
 
     init() {
-        deviceConnections = Dictionary(uniqueKeysWithValues: IOBluetoothDevice.devices.map({ ($0.name, $0.isConnected()) }))
+        deviceConnections = Dictionary(IOBluetoothDevice.devices.map({ ($0.name, $0.isConnected()) }), uniquingKeysWith: { $1 })
         IOBluetoothDevice.register(forConnectNotifications: self, selector: #selector(connect))
         IOBluetoothDevice.devices.forEach({ $0.register(forDisconnectNotification: self, selector: #selector(disconnect)) })
  
