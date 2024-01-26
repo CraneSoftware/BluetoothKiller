@@ -1,6 +1,6 @@
 //
 //  LaunchConfig.swift
-//  KillBT
+//  BluetoothKiller
 //
 //  Created by Will Crane on 1/17/24.
 //

@@ -61,13 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				D09447652B5A3728000E9C45 /* BluetoothKillerApp.swift */,
-				D09447692B5A3729000E9C45 /* Assets.xcassets */,
 				D07146372B5CDBB200589511 /* BluetoothMenuBarCoordinator.swift */,
 				D07146362B5CDBB200589511 /* BluetoothMenuBarView.swift */,
 				D07146392B5CDBB200589511 /* IOBluetoohDevice+.swift */,
-				D094476E2B5A3729000E9C45 /* BluetoothKiller.entitlements */,
-				D094476B2B5A3729000E9C45 /* Preview Content */,
 				D094477E2B5A384F000E9C45 /* Settings.swift */,
+				D094476E2B5A3729000E9C45 /* BluetoothKiller.entitlements */,
+				D09447692B5A3729000E9C45 /* Assets.xcassets */,
+				D094476B2B5A3729000E9C45 /* Preview Content */,
 			);
 			path = BluetoothKiller;
 			sourceTree = "<group>";

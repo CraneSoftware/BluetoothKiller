@@ -1,6 +1,6 @@
 //
-//  DataViewModel.swift
-//  KillBT
+//  BluetoothMenuBarCoordinator.swift
+//  BluetoothKiller
 //
 //  Created by Will Crane on 1/17/24.
 //
@@ -10,7 +10,7 @@ import SwiftUI
 import IOBluetooth
 import NotificationCenter
 
-@Observable class BluetoothCoordinator {
+@Observable class BluetoothMenuBarCoordinator {
     var deviceConnections: [String: Bool]
     private var sleeping = false
     private var connectedDevices: [IOBluetoothDevice] {
