@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  BluetoothMenuBarView.swift
 //  BluetoothKiller
 //
 //  Created by Will Crane on 1/18/24.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BluetoothMenuBarView: View {
-    @State var coordinator: BluetoothCoordinator
+    @State var coordinator: BluetoothMenuBarCoordinator
 
     var body: some View {
         ScrollView{
@@ -35,5 +35,5 @@ struct BluetoothMenuBarView: View {
 }
 
 #Preview {
-    BluetoothMenuBarView(coordinator: BluetoothCoordinator())
+    BluetoothMenuBarView(coordinator: BluetoothMenuBarCoordinator())
 }
