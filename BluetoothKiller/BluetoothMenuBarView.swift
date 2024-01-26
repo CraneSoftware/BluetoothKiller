@@ -8,28 +8,34 @@
 import SwiftUI
 
 struct BluetoothMenuBarView: View {
+    @State var isOn: Bool = false
     @State var coordinator: BluetoothMenuBarCoordinator
 
     var body: some View {
-        ScrollView{
+        VStack {
             Divider()
             Text("Bluetooth Killer")
-            
-            Spacer()
-            
-            List{
-                ForEach(coordinator.deviceConnections.map({ $0 }), id: \.key) { name, isConnected in
-                    Text("device: \(name) connected: \(isConnected.description)")
+                .padding()
+
+            List {
+                Section(header: Text("Devices")) {
+                    ForEach(Array(coordinator.deviceConnections), id: \.key) { name, isConnected in
+                        HStack {
+                            Toggle("", isOn: $isOn)
+                                .toggleStyle(.checkbox)
+                            Text(name)
+                            Spacer()
+                            Image(systemName: "antenna.radiowaves.left.and.right" + (isConnected ? "" : ".slash"))
+                        }
+                        .padding(6)
+                    }
                 }
             }
-            
-            Spacer()
 //                Text("Login at Launch: ".appending("\(vm.launchConfig.loginLaunchStatus.description)"))
-            Spacer()
             Button(action: { NSApp.terminate(nil) }) {
                 Label("Quit", systemImage: "figure.run")
             }
-            Spacer()
+            .padding()
         }
     }
 }
